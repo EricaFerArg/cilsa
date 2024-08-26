@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mi-formulario {
+  background-color: #8eba59;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* Estilo para alto contraste en el formulario */
+.mi-formulario.high-contrast {
+  background-color: black;
+  color: white;
+}
+
+.mi-formulario.high-contrast input,
+.mi-formulario.high-contrast select,
+.mi-formulario.high-contrast button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+
+  
+ 
+
+
+
+  

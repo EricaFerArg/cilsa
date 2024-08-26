@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="mi-formulario" class="mi-formulario">
+        <h4 id="datos-personales">Datos Personales</h4>
+        <br><br>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre">
+        <br><br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Ingrese su apellido">
+        <br><br>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <p id="error-message" style="color:red;"></p>
+        <br><br>
+        
+        <label for="nacimiento">Año de Nacimiento:</label>
+        <input type="number" id="nacimiento" name="nacimiento" min="1920" max="2024" required>
+        <br><br>
+        
+        <label for="pais">País de Residencia:</label>
+        <select name="pais" id="pais">
+            <option value="">Argentina</option>
+            <option value="">México</option>
+            <option value="">Uruguay</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <!-- Botón para cambiar el contraste del formulario -->
+        <button type="button" id="contrastButton">contraste</button>
+    </form>
+</body>
+</html>
